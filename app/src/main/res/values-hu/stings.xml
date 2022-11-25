@@ -12,7 +12,7 @@
     <string name="dialog_no">Nem</string>
     <string name="dialog_prev">Előző</string>
     <string name="dialog_next">Következő</string>
-    <string name="track_audio">Audio</string>
+    <string name="track_audio">Hang</string>
     <string name="track_subs">Feliratok</string>
     <string name="track_off">Ki</string>
     <string name="btn_play">Lejátszás</string>
@@ -22,7 +22,7 @@
     <string name="ui_seek_distance">%1$s\n[%2$s]</string>
     <string name="ui_fps">%.3f FPS</string>
     <string name="ui_speed">%.2fx</string>
-    <string name="ui_chapter_fallback">Chapter %1$d (%2$s)</string>
+    <string name="ui_chapter_fallback">%1$d.fejezet (%2$s)</string>
     <string name="ui_chapter">%1$s (%2$s)</string>
     <string name="ui_track">#%d</string>
     <string name="ui_track_text">#%1$d: %2$s</string>
@@ -32,38 +32,38 @@
 
     <!-- Less simple strings -->
     <string name="title_speed_dialog">Lejátszási sebesség</string>
-    <string name="error_no_file">No file given, exiting</string>
-    <string name="notice_file_appended">File was appended to playlist</string>
-    <string name="exit_warning_playlist">%d playlist items remaining.\nDo you really want to exit?</string>
-    <string name="contrast">Contrast</string>
-    <string name="video_brightness">Video Brightness</string>
+    <string name="error_no_file">Nincs megadva fájl, kilépés</string>
+    <string name="notice_file_appended">A fájl hozzáadva a lejátszási listához</string>
+    <string name="exit_warning_playlist">%d lejátszási listaelem maradt.\nBiztosan kilépsz?</string>
+    <string name="contrast">Kontraszt</string>
+    <string name="video_brightness">Videó fényerő</string>
     <string name="gamma">Gamma</string>
-    <string name="saturation">Saturation</string>
-    <string name="aspect_ratio">Aspect ratio</string>
-    <string name="audio_delay">Audio delay</string>
-    <string name="sub_delay">Subtitle delay</string>
-    <string name="notice_show_all_files">Showing all files</string>
-    <string name="notice_show_media_files">Showing media files only</string>
+    <string name="saturation">Színtelítettség</string>
+    <string name="aspect_ratio">Képarány</string>
+    <string name="audio_delay">Hang késleltetés</string>
+    <string name="sub_delay">Felirat késleltetés</string>
+    <string name="notice_show_all_files">Összes fájl mutatása</string>
+    <string name="notice_show_media_files">Csak médiafájlok mutatása</string>
     <string name="option_remember_choice">Emlékezzen a választásra</string>
 
     <!-- Action buttons -->
-    <string name="switch_orientation">Switch Orientation</string>
-    <string name="open_external_audio">Open external audio…</string>
-    <string name="open_external_sub">Open external subtitle…</string>
-    <string name="advanced_menu">Advanced…</string>
-    <string name="resume_bg_playback">Play in background</string>
-    <string name="toggle_stats">Toggle stats</string>
-    <string name="chapter_button">Chapter</string>
-    <string name="sub_seek_button">Seek by subtitle</string>
+    <string name="switch_orientation">Tájolás váltása</string>
+    <string name="open_external_audio">Külső hangfájl megnyitása…</string>
+    <string name="open_external_sub">Külső feliratfájl megnyitása…</string>
+    <string name="advanced_menu">Haladó…</string>
+    <string name="resume_bg_playback">Lejátszás a háttérben</string>
+    <string name="toggle_stats">Statisztikák váltása</string>
+    <string name="chapter_button">Fejezet</string>
+    <string name="sub_seek_button">Keresés felirattal</string>
     <string name="file_picker_old">Fájlválasztó\n(hagyományos)</string>
-    <string name="action_settings">Settings</string>
-    <string name="action_playlist">Playlist</string>
+    <string name="action_settings">Beállítások</string>
+    <string name="action_playlist">Lejátszási lista</string>
     <string name="action_open_url">Link megnyitása</string>
     <string name="action_open_doc_
                   ">Dokumentumfa megnyitása</string>
-    <string name="action_pick_file">Pick File</string>
-    <string name="action_external_storage">External storage</string>
-    <string name="action_toggle_filter">Toggle Filter</string>
+    <string name="action_pick_file">Fájl kijelölése</string>
+    <string name="action_external_storage">Külső tárhely</string>
+    <string name="action_toggle_filter">Szűrő váltása</string>
 
     <!-- Strings related to Settings -->
     <string name="pref_header_general">Általános</string>
@@ -74,15 +74,15 @@
     <string name="pref_header_advanced">Haladó</string>
 
     <string name="pref_default_file_manager_path_title">Alapértelmezett elérési út</string>
-    <string name="pref_default_file_manager_path_hint">Set the initial file manager path</string>
+    <string name="pref_default_file_manager_path_hint">Alapértelmezett elérési út megadása</string>
     <string name="pref_default_file_manager_path_summary" translatable="false">%s</string>
 
-    <string name="pref_default_audio_language_title">Hangok alapértelmezett nyelve</string>
-    <string name="pref_default_audio_language_message">Alapértelmezett hangsáv választása több hangsávval rendelkező videókhoz.\nA 2 és 3 betűs nyelvkódokat általában jól felismeri. Több érték is megadható vesszővel elválasztva.</string>
+    <string name="pref_default_audio_language_title">Hangsáv alapértelmezett nyelve</string>
+    <string name="pref_default_audio_language_message">Alapértelmezett hangsáv(ok) választása a több hangsávval rendelkező videókhoz.\nA 2 és 3 betűs nyelvkódokat általában jól felismeri. Több érték is megadható vesszővel elválasztva.</string>
     <string name="pref_default_audio_language_summary" translatable="false">%s</string>
 
     <string name="pref_default_subtitle_language_title">Feliratok alapértelmezett nyelve</string>
-    <string name="pref_default_subtitle_language_message">Select subtitle language(s) to be selected by default when playing a video with multiple subtitles. Multiple values can be delimited by comma.\nTwo- or three-letter languages codes typically work. Multiple values can be delimited by comma.</string>
+    <string name="pref_default_subtitle_language_message">Alapértelmezett felirat(ok) választása a többnyelvű felirattal rendelkező videókhoz.\nA 2 és 3 betűs nyelvkódokat általában jól felismeri. Több érték is megadható vesszővel elválasztva.</string>
     <string name="pref_default_subtitle_language_summary" translatable="false">%s</string>
 
     <string name="pref_hardware_decoding_title">Hardveres dekódolás</string>
@@ -90,89 +90,89 @@
 
     <string name="pref_background_play_title">Háttérbeli lejátszás</string>
     <string name="pref_background_play_summary">Annak kiválasztása, hogy a lejátszás mikor folytatódjon automatikusan a háttérben</string>
-    <string name="pref_background_play_default" translatable="false">never</string>
+    <string name="pref_background_play_default" translatable="false">soha</string>
 
     <string name="pref_save_position_title">Pozíció mentése kilépéskor</string>
     <string name="pref_save_position_summary">Emlékezzen a lejátszási pozícióra kilépéskor. Ugyanezen fájl ismételt lejátszásakor az mpv az előző pozícióba lép.</string>
 
-    <string name="pref_auto_rotation_title">Screen orientation</string>
-    <string name="pref_auto_rotation_summary">Decide which orientation mpv will play landscape or portrait videos in</string>
-    <string name="pref_auto_rotation_default" translatable="false">auto</string>
+    <string name="pref_auto_rotation_title">Kijelző tájolása</string>
+    <string name="pref_auto_rotation_summary">Annak eldöntése, hogy az mpv milyen tájolásban játssza le a fekvő vagy álló videókat</string>
+    <string name="pref_auto_rotation_default" translatable="false">automatikus</string>
 
-    <string name="pref_display_media_title_title">Display media title (videos)</string>
-    <string name="pref_display_media_title_summary">Display the media title or filename of videos is displayed above the controls. Audio files will always display their metadata.</string>
+    <string name="pref_display_media_title_title">Médiacím megjelenítése (videos)</string>
+    <string name="pref_display_media_title_summary">A vezérlők felett megjelenik a videók médiacíme vagy fájlneve. A hangfájlok metaadatai mindig megjelennek.</string>
 
-    <string name="pref_bottom_controls_title">Show controls at bottom of screen</string>
+    <string name="pref_bottom_controls_title">Vezérlők megjelenítése a képernyő alján</string>
 
-    <string name="pref_display_in_cutout_title">Kiterjesztés a kamerakivágás környéki területre is</string>
+    <string name="pref_display_in_cutout_title">Kép kiterjesztése a kijelző kamerakivágás környéki területére is</string>
 
-    <string name="pref_no_ui_pause_title">Continue playback during UI popups</string>
-    <string name="pref_no_ui_pause_summary">Select if playback should continue while popups are open (e.g. playlist dialog)</string>
-    <string name="pref_no_ui_pause_default" translatable="false">audio-only</string>
+    <string name="pref_no_ui_pause_title">Lejátszás folytatása felugró ablakok mögött is</string>
+    <string name="pref_no_ui_pause_summary">Annak kiválasztása, hogy a lejátszás folytatódjon-e, amíg egy előugró ablak nyitva van (pl. lejátszási lista párbeszédpanele)</string>
+    <string name="pref_no_ui_pause_default" translatable="false">csak a hangfájl</string>
 
-    <string name="pref_seek_gesture_smooth_title">Smoother seeking</string>
+    <string name="pref_seek_gesture_smooth_title">Finom tekerés</string>
 
-    <string name="pref_gesture_horiz_title">Horizontal drag</string>
-    <string name="pref_gesture_horiz_default" translatable="false">seek</string>
+    <string name="pref_gesture_horiz_title">Vízszintes húzás</string>
+    <string name="pref_gesture_horiz_default" translatable="false">tekerés</string>
 
-    <string name="pref_gesture_vert_left_title">Vertical drag (left)</string>
-    <string name="pref_gesture_vert_left_default" translatable="false">bright</string>
+    <string name="pref_gesture_vert_left_title">Függőleges húzás (bal oldalon)</string>
+    <string name="pref_gesture_vert_left_default" translatable="false">fényerő</string>
 
-    <string name="pref_gesture_vert_right_title">Vertical drag (right)</string>
-    <string name="pref_gesture_vert_right_default" translatable="false">volume</string>
+    <string name="pref_gesture_vert_right_title">Függőleges húzás (jobb oldalon)</string>
+    <string name="pref_gesture_vert_right_default" translatable="false">hangerő</string>
 
-    <string name="pref_gesture_tap_left_title">Double tap (left)</string>
-    <string name="pref_gesture_tap_left_default" translatable="false">none</string>
+    <string name="pref_gesture_tap_left_title">Dupla érintés (bal oldalon)</string>
+    <string name="pref_gesture_tap_left_default" translatable="false">semmi</string>
 
-    <string name="pref_gesture_tap_center_title">Double tap (center)</string>
-    <string name="pref_gesture_tap_center_default" translatable="false">none</string>
+    <string name="pref_gesture_tap_center_title">Dupla érintés (középen)</string>
+    <string name="pref_gesture_tap_center_default" translatable="false">semmi</string>
 
-    <string name="pref_gesture_tap_right_title">Double tap (right)</string>
-    <string name="pref_gesture_tap_right_default" translatable="false">none</string>
+    <string name="pref_gesture_tap_right_title">Dupla érintés (jobb oldalon)</string>
+    <string name="pref_gesture_tap_right_default" translatable="false">semmi</string>
 
-    <string name="pref_gesture_custom_helptext">When a tap gesture is set to \"Custom\" it can be bound to any command by editing input.conf. The key codes are <b>0x10001</b> (left), <b>0x10002</b> (center), <b>0x10003</b> (right).\nFor example you could bind to seeking by 6s:\n\t\t0x10003 no-osd seek 6</string>
+    <string name="pref_gesture_custom_helptext">Ha egy gesztus \"Egyéni\"-re van állítva, az input.conf fájlban paraméterezhető. Kódkulcsok: <b>0x10001</b> (bal oldalon), <b>0x10002</b> (középen), <b>0x10003</b> (jobb oldalon).\nPélda egy 6 mp-es tekerésre:\n\t\t0x10003 no-osd seek 6</string>
 
-    <string name="pref_video_upscale_title">Upscaling filter</string>
+    <string name="pref_video_upscale_title">Felskálázó szűrő</string>
 
-    <string name="pref_video_downscale_title">Downscaling filter</string>
+    <string name="pref_video_downscale_title">Leskálázó szűrő</string>
 
-    <string name="pref_video_debanding_title">Debanding</string>
-    <string name="pref_video_debanding_summary">Select video debanding mode</string>
+    <string name="pref_video_debanding_title">Sáveltávolítás</string>
+    <string name="pref_video_debanding_summary">Sáveltávolítás mód kiválasztása</string>
 
-    <string name="pref_video_interpolation_title">Interpolation</string>
-    <string name="pref_video_interpolation_message">Reduce judder caused by mismatched video FPS and display refresh rate.</string>
-    <string name="pref_video_interpolation_sync_default" translatable="false">audio</string>
+    <string name="pref_video_interpolation_title">Interpolálás</string>
+    <string name="pref_video_interpolation_message">A videó képkockaszám és kijelző frissítés eltérése miatti remegés csökkentése.</string>
+    <string name="pref_video_interpolation_sync_default" translatable="false">hang</string>
 
-    <string name="pref_video_tscale_title">Temporal interpolation filter</string>
-    <string name="pref_video_tscale_summary">Select the filter used for interpolating the temporal axis (frames)</string>
-    <string name="pref_video_tscale_message">These settings only take effect if interpolation is enabled above.</string>
+    <string name="pref_video_tscale_title">Ideiglenes interpolációs szűrő</string>
+    <string name="pref_video_tscale_summary">Válaszd ki az időbeli tengely (kockák) interpolálásához használandó szűrőt</string>
+    <string name="pref_video_tscale_message">Ezek a beállítások csak akkor lépnek életbe, ha fent engedélyezve van az interpolálás.</string>
 
-    <string name="pref_video_fastdecode_title">Low-quality video decoding</string>
-    <string name="pref_video_fastdecode_summary">Trade quality for performance and thus fluent playback.\n<b>REDUCES QUALITY A LOT</b></string>
+    <string name="pref_video_fastdecode_title">Alacsony minőségű videódekódolás</string>
+    <string name="pref_video_fastdecode_summary">A minőség helyett a teljesítményre és ezáltal a gördülékenyebb lejátszásra helyezi a hangsúlyt.\n<b>SOKAT RONT A MINŐSÉGEN</b></string>
 
-    <string name="pref_ignore_audio_focus_title">Ignore Audio focus</string>
-    <string name="pref_ignore_audio_focus_summary">Do not pause playback or reduce volume when other applications play audio at the same time.</string>
+    <string name="pref_ignore_audio_focus_title">Audio fókusz mellőzése</string>
+    <string name="pref_ignore_audio_focus_summary">Ne szüneteltesse a lejátszást, és ne is csökkentse a hangerőt, amikor más alkalmazások egyidejűleg szintén hangot játszanak le.</string>
 
-    <string name="pref_stats_mode_title">Show stats</string>
-    <string name="pref_stats_mode_summary">Select which statistics are displayed</string>
+    <string name="pref_stats_mode_title">Statisztikák mutatása</string>
+    <string name="pref_stats_mode_summary">A megjelenítendő statisztikai adatok beállítása</string>
 
-    <string name="pref_gpu_debug_title">Enable OpenGL debugging</string>
+    <string name="pref_gpu_debug_title">OpenGL hibakeresés bekapcsolása</string>
 
-    <string name="pref_version_info">Version information</string>
+    <string name="pref_version_info">Verzióinformáció</string>
 
-    <string name="pref_edit_mpv_conf">Edit mpv.conf</string>
-    <string name="pref_edit_mpv_conf_message">You can directly edit mpv\'s configuration here.</string>
+    <string name="pref_edit_mpv_conf">mpv.conf szerkesztése</string>
+    <string name="pref_edit_mpv_conf_message">Az mpv konfigurációs fájlja itt közvetlenül szerkeszthető.</string>
 
-    <string name="pref_edit_input_conf">Edit input.conf</string>
-    <string name="pref_edit_input_conf_message">You can edit input.conf here, this is mainly useful for TV remotes and keyboards.\n\nImportant: mpv-android has some hardcoded keys which can\'t be redefined here, e.g. \'j\' to cycle subtitles.</string>
+    <string name="pref_edit_input_conf">input.conf szerkesztése</string>
+    <string name="pref_edit_input_conf_message">Az input.conf fájl szerkeszthető itt, ez főleg tv-távirányítók és billentyűzetek esetén lehet hasznos.\n\nFontos: van néhány karakter, melynek jelentése nem módosítható itt pl. a \'j\', mely a feliratokat váltogatja.</string>
 
     <!-- Strings used in Settings dialog preferences -->
-    <string name="scaler_param1">Param 1:</string>
-    <string name="scaler_param2">Param 2:</string>
-    <string name="interpolation_switch">Enable Interpolation</string>
-    <string name="interpolation_video_sync">Video sync:</string>
+    <string name="scaler_param1">1.paraméter:</string>
+    <string name="scaler_param2">2.paraméter:</string>
+    <string name="interpolation_switch">Interpolálás bekapcsolása</string>
+    <string name="interpolation_video_sync">Videó szink.:</string>
 
     <!-- File picker -->
-    <string name="nnf_name">Name</string>
-    <string name="nnf_permission_external_write_denied">Permission to access file system denied</string>
+    <string name="nnf_name">Név</string>
+    <string name="nnf_permission_external_write_denied">A fájlrendszerhez való hozzáférés megtagadva</string>
 </resources>
